@@ -2,7 +2,7 @@ import { Editor } from "@monaco-editor/react";
 
 export function JsonEditor(props: any) {
 
-    const { height, onChange, value, readonly} = props;
+    const { height, onChange, value, readonly } = props;
 
     return (
         <Editor
