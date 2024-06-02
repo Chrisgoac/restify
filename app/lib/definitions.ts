@@ -6,3 +6,12 @@ export type User = {
     createdAt: string;
     updatedAt: string;
 };
+
+export type ResponseData = {
+    status: number;
+    data: any;
+};
+
+export type ErrorResponse = {
+    error: string;
+}
