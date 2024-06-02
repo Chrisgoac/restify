@@ -36,6 +36,7 @@ export default function Demo() {
     };
     
     return (
+        <>
         <div className="container mx-auto p-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4"> 
                 <div className="flex flex-col">
@@ -120,5 +121,9 @@ export default function Demo() {
                 </div>
             </div>
         </div>
+        <footer className="bg-[#2E2E2E] py-4 text-center text-gray-200">
+            <p>Built with <span className="text-red-500">&hearts;</span> by Chrisgoac</p>
+        </footer>
+        </>
     );
 }
