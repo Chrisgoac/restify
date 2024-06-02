@@ -35,6 +35,3 @@ The web utilizes local state to manage various aspects of the request, including
    ```
 
 4. Open your web browser and navigate to `http://localhost:3000`.
-
-
-1.
